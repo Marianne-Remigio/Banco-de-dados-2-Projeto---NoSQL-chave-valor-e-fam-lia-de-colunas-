@@ -1,4 +1,4 @@
-// Inserts de Exemplo
+-- Inserts de Exemplo
 
 INSERT INTO music_by_id (music_id, title, artist, genre)
 VALUES (uuid(), '505', 'Arctic Monkeys', 'Indie Rock');
@@ -15,7 +15,7 @@ VALUES (uuid(), 'Starboy', 'The Weeknd', 'R&B');
 INSERT INTO music_by_id (music_id, title, artist, genre)
 VALUES (uuid(), '505 Slowed', 'Arctic Monkeys', 'Slowed');
 
-// Para Historico
+-- Para Historico
 
 INSERT INTO history_by_user (
     user_id,
@@ -32,7 +32,7 @@ VALUES (
     'Arctic Monkeys'
 );
 
-// Favoritos
+-- Favoritos
 
 INSERT INTO favorites_by_user (
     user_id,
@@ -49,7 +49,7 @@ VALUES (
     toTimestamp(now())
 );
 
-// Testes
+-- Testes
 
 SELECT * FROM music_by_id;
 
