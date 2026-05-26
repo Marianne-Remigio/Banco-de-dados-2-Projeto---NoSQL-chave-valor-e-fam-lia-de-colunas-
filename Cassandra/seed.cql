@@ -1,4 +1,4 @@
--- Usuário de exemplo (Versão estendida)
+-- Usuário de exemplo (Versão estendida) 
 
 INSERT INTO users_by_id (user_id, username, email)
 VALUES (
