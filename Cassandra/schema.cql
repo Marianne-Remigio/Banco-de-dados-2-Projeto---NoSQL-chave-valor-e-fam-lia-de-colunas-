@@ -1,3 +1,5 @@
+-- VERSÃO APRESENTADA
+
 CREATE KEYSPACE spotify
 WITH replication = {
   'class': 'SimpleStrategy',
